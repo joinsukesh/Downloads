@@ -1,0 +1,840 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Stratum_v1</PackageName>
+      <Author>sukesh</Author>
+      <Version />
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/Launchpad/PageSettings/Buttons/Stratum/{92F7867C-5309-4A86-887D-D4981EE4F522}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Launchpad/PageSettings/Buttons/Stratum/Sitecore Form Report/{C6E20664-55A8-4A61-B29A-311FDF6451FD}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-launchpad-btns</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/media library/Stratum/{3D934C9C-8F43-4D6B-95AB-FC56FBD0548F}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Feature/{D92ADE1E-6D4F-420E-8B92-FC902D290EE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Foundation/{DDF8344A-DF59-4C1A-863D-96FFD1C5CD38}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/{5D399BF2-0296-4E5C-9E82-A012BF6F848B}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/AboutUs/{D3178E75-F36A-4BDF-8BFF-A1F7BF8E9EB9}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/AboutUs/about-img/{C673F209-46FE-4DF8-901F-E801FC575ED3}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/assets/{304152F7-7B75-4187-B6FA-D598A01D167B}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/assets/css/{92539CF1-500B-43E7-9026-7FC761C08079}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/assets/css/style/{1C019DD5-39B6-413D-8A93-890815D92BB8}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/assets/js/{C2FA64AF-989D-49B8-893A-9BF45902F05E}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/assets/js/main/{BA42ED56-409B-4DE2-A591-2EC7B195625B}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Banners/{6A23BE76-25C7-482E-B229-CE50AB3AA6AA}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Banners/hero-bg/{877C6A95-D081-4E99-A9EA-1C0610F14668}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Favicons/{C15ED637-51D1-4C05-85ED-90EDA0A66265}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Favicons/apple-touch-icon/{9847E736-B450-4BB8-8FA1-AF3AB28178C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Favicons/favicon/{17819203-EA14-410D-8BBD-77E7C7354953}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/{C9989EC7-2B81-44E8-B6F9-BD5A6648C56D}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-1/{F77836A3-AEC4-48B0-89B3-41383CC73432}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-2/{7E1BF6FC-5BDE-4300-9EC5-470ADE361E70}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-3/{10733CBE-71A9-47C5-BB5B-F4EBA00B5D5B}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-4/{C076977E-5BFB-45AA-81AF-9CB88E648973}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-5/{8ACB3A6D-1759-4691-B839-D44738540F1D}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-6/{21D6FB7B-5465-4E9B-A99B-941E0DA60441}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-7/{A2CD28EC-4BBE-4B3D-9ABC-3A108E2ECEED}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-8/{C8719FA9-F8A1-4BBD-951E-F28C8FFD6A2C}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Gallery/portfolio-9/{BCEC226B-8D97-4EB5-AA30-89A51105181C}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Products/{85BB8858-33B7-46B4-9418-544281483130}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Products/portfolio-details-1/{450EF39A-59EE-414A-B930-899A2E485268}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Products/portfolio-details-2/{4D9C5F8F-B190-40FF-A994-87155629DB6F}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Products/portfolio-details-3/{87F45586-8313-41C7-A963-05D625AC75C4}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Testimonials/{9031BA8B-8A7A-4320-8592-33F47693CEC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Testimonials/testimonials-1/{7A3FF2D3-2573-4C4D-BF63-C7AF944E554A}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Testimonials/testimonials-2/{8EA102E7-8953-4543-842C-7581BAE14C34}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Testimonials/testimonials-3/{F8026555-E2BC-4463-A303-BC4BCBEB39E8}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Testimonials/testimonials-4/{3721B575-469A-4E48-95DC-2C5C10A3C044}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Stratum/Project/Testimonials/testimonials-5/{9ADFE33C-C04E-410C-9110-3FD6232F3110}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>media</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Stratum/{A93098DD-F3E9-477F-9BF3-5FE9D91350CB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/{E24317BC-E6E5-4DC2-8899-7B9E0100EA0B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/{573207CD-4AA1-4803-AF26-6852BD5AD441}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Confirm Sign Up Rendering Parameters/__Standard Values/{2543D478-A041-45EB-80C8-426D9A9AC9D1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Confirm Sign Up Rendering Parameters/{2FFAF179-9CBE-4A5F-B2BC-050ECFA96464}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Confirm Sign Up Rendering Parameters/Rendering Parameters/{3E37BE75-C4CD-400F-9DAC-1E4019C8CA8F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Confirm Sign Up Rendering Parameters/Rendering Parameters/Content/{3E46E8CF-EF80-42AB-8777-45F2D8850010}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Forgot Password Rendering Parameters/__Standard Values/{5E8F4248-78E9-4CA1-9D2E-3AD5FB2CB394}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Forgot Password Rendering Parameters/{3E05CFFB-E865-4F62-B4F8-8C54C90016AF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Forgot Password Rendering Parameters/Rendering Parameters/{29309F81-6600-495F-8A26-9F964FC15A8C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Forgot Password Rendering Parameters/Rendering Parameters/Reset Password Page/{76575F7C-014D-480B-B9B4-61679C940441}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Reset Password Rendering Parameters/__Standard Values/{A5A07452-8F44-45B1-8E87-D2C6BAE70CCA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Reset Password Rendering Parameters/{FC5D96EF-2F44-4B91-AF9C-DDEEA17DC0D5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Reset Password Rendering Parameters/Rendering Parameters/{72362CB2-C047-402A-A68F-F29F8A387FE7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Reset Password Rendering Parameters/Rendering Parameters/Sign In Page/{C4196CD7-6926-46B0-90EA-EADB9199C6DB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign In Rendering Parameters/__Standard Values/{111C7FF7-CF7C-498A-897F-0DD57E17EAD5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign In Rendering Parameters/{380E1A0D-3952-4631-8D9E-859AFD375F38}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign In Rendering Parameters/Rendering Parameters/{45148573-7966-421A-A1BF-22154623F13A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign In Rendering Parameters/Rendering Parameters/Forgot Password Label/{6D57AB79-E307-42B1-B668-224B1622EF3B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign In Rendering Parameters/Rendering Parameters/Forgot Password Page/{1C7C9B1D-5811-4AD0-866F-3373A0649B7E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign Up Rendering Parameters/__Standard Values/{B0CE6C97-A8B7-4F7F-BC4E-FEA8C4DA5B5D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign Up Rendering Parameters/{B03AA25C-8B03-4BD7-AD74-A24242601830}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign Up Rendering Parameters/Rendering Parameters/{B8F3F9D2-4F8A-4809-9CE3-FDC40D228F0D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Accounts/Sign Up Rendering Parameters/Rendering Parameters/Confirm Sign Up Page/{EF8EE554-04CB-45CC-932B-E7B1212BF0F0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/{2DCC05CF-7EBF-470A-AA22-05C81D261BA6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/__Standard Values/{2AE62B09-DA78-4414-8CEF-5235A6A8A9DF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/{256EE919-060B-4F6D-85E3-43CAE81E8125}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/{2D04163A-9F62-4AB8-A195-C54AC9CC1416}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/Canonical URL/{0559B554-3781-4632-8EAC-64E5FBDD2C62}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/Generate Dynamic Canonical URL/{620A0EC2-503D-4457-A181-3949838D812B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/Index And Follow/{99F0CD4D-1EED-435C-90F1-EA6A86314302}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/Meta Description/{083C5646-8D72-408C-AEE8-3D7598245D02}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/Meta Title/{A201B976-5DEE-4787-A901-C6638BF7E958}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/OG Description/{774B0F25-4867-40DB-A576-BCDD5793686E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/OG Image/{9B52082F-8B47-4BD0-BA6A-3508FDE11284}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/OG Title/{879A4E4B-6BCD-4873-B655-941E0D1E41E3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/OG URL/{6725173F-E80A-4DAF-8B58-B4FAAE9938A8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Page Metadata/Page Metadata/Other Meta Tags/{365134A4-DD38-48EA-AC09-23F890A2418C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Site Metadata/__Standard Values/{8E419342-41BA-4A6B-8E77-8507BB591414}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Site Metadata/{A2AF5603-C0DE-4590-BF09-A2AEB626D3F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Site Metadata/Site Metadata/{EB365503-E19B-4D92-BD95-59B1F4A60799}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Site Metadata/Site Metadata/Favicons/{B200E399-FE15-4400-945A-7EB97C63E4C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Site Metadata/Site Metadata/Meta Title Append/{02F10EB0-4D8D-426D-817F-CBA12050F667}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Metadata/Site Metadata/Site Metadata/Site Meta Tags/{B1A9F408-D008-4D34-86BA-5EEF1C6951EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/{24B3D748-BE6E-4730-94BE-8B36DCC3BCEE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer Datasources Folder/__Standard Values/{93113567-88DD-49CE-AE39-AA4D0A7155E3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer Datasources Folder/{66C2FDBC-6137-430E-9F13-DA9FD83185D7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/__Standard Values/{0373774A-48AC-4470-AC55-4D2B99809D3E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/{20B3DC31-7ED7-432C-980D-0200A02E2B51}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/{07D2EAB1-461E-4D9A-889D-3484B88AEB26}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Address/{5EA73BAA-3615-441F-A306-A275AAB6D4D9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Column 2 Links/{E8F0C75F-BE0C-4BE7-A41E-922F3687DE28}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Column 2 Title/{F0F95987-80FD-4FED-A5D5-22D8FFD807C8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Column 3 Links/{786FFB2E-2BA1-4C2C-A2B2-8D9B329B072D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Column 3 Title/{3649A55C-216B-46F7-96B4-DF7BB7E80E7A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Copyright Section/{A9DBF7B3-CEA0-4477-8160-789C862BDE18}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Social Links/{D96398AD-9397-47ED-9804-8C58CF433816}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header Datasources Folder/__Standard Values/{F03648F2-528A-4DE9-BA21-1DEE77BB53A0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header Datasources Folder/{1C6C3365-3DF3-40AD-A3F7-2C6B3C865D91}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/__Standard Values/{C48AD900-9858-45C9-A3AD-2C4162E7712F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/{D38B2B55-41A5-4288-8B71-BA4FED92DEF3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/Header/{D5D16FA1-9EA3-4929-9C66-7BFAFE05F3AD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/Header/Logo Target URL/{F5FFFAD7-66EC-46D9-B527-B751AD0E577F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/Header/Logo/{299323CA-1C95-438B-ABD8-FD40EEFE6DE1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/Header/Nav Links/{9C915E75-47F9-4AE3-97BC-A149815E01C4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/Header/Sign In Page/{3CDC6CF7-12AB-4FE7-B25F-8B0A102774D7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/Header/Sign Out Page/{1892B1C8-B22D-455C-A56A-A91902D53662}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Header/Header/Sign Up Page/{4AE62C71-2038-40B1-A402-BF74CD724463}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Nav Link/__Standard Values/{61326E93-4ADC-4563-ACA9-B77EE1A4B3CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Nav Link/{FC1F3408-3F6F-4795-AC99-A7CBBB9B5CC4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Nav Link/Nav Link/{359AE890-4F76-49A7-9931-2B7957EC5C48}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Nav Link/Nav Link/CSS Class/{EEFDD316-9BC9-4DE7-B32C-3D6AD51E4D16}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Nav Link/Nav Link/Link/{DD560F16-63AC-4B38-82A0-546367DF27B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Nav Links Folder/__Standard Values/{5E03C3EF-0A39-4E37-B926-02FA26B15144}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/Navigation/Nav Links Folder/{9D631B6A-CB9A-4DAC-895B-48F7C6512C93}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/{07B4BEEC-9BDF-4BCE-9C0A-040C8E78BB1D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Accordion Panel/__Standard Values/{9CC1DF39-4BE2-4F94-A568-EDB9AAF6FC87}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Accordion Panel/{A850D245-7C89-446D-B320-5FCB8CCD0BC0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Accordion Panel/Accordion Panel/{80B57A38-FD5E-44E6-8416-F58994A1091A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Accordion/__Standard Values/{83745B70-B168-4EC9-97B1-169DCD804983}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Accordion/{87E04431-63D7-4E87-94B1-4E72C0990799}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Accordions Folder/__Standard Values/{EF2697ED-FAE2-471A-A3A8-9150D92D3831}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Accordions Folder/{8B7CFA99-01BF-406C-9E47-0FFD72DA7580}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Columns Section Rendering Parameters/__Standard Values/{21142D5E-EACD-4831-8CB5-D10E3BD00C4F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Columns Section Rendering Parameters/{83340986-5B20-4945-BCD0-F8C797CBE8A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Columns Section Rendering Parameters/Rendering Parameters/{4205C472-8CAA-46AE-ABCC-6B182A7147E3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Columns Section Rendering Parameters/Rendering Parameters/Column CSS Class/{BF15BFB0-C4CB-46F3-9B5C-EE5D5A740AC8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Columns Section Rendering Parameters/Rendering Parameters/Number Of Columns/{939A1933-39A6-44B2-9314-40F21D0C8B4C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Galleries Folder/__Standard Values/{E3192C88-8424-482B-9701-A5485D899D78}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Galleries Folder/{E631208A-90DE-473B-9613-AF1A2D680542}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery Image/__Standard Values/{B595BB08-5288-48FD-8F0B-85E2B1C95BA9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery Image/{874067F3-753D-47DD-B1C6-AAFE08AB43AF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery Image/Gallery Image/{60E4BEFF-888C-4CB0-A201-772702955633}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery Image/Gallery Image/CTA/{3C955A22-3968-4BD5-A786-B821088F8B8C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery Image/Gallery Image/Image/{20917D71-0843-4CB9-BA63-44B971246058}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery Images Folder/__Standard Values/{8B0C6F1C-4792-4796-944A-6D0FAEA3B298}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery Images Folder/{38C2FA59-CFFF-48C6-9041-5754134FA6F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery/__Standard Values/{2FED289A-9C38-4B72-B885-9F356D04C36E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery/{DB52B9AA-A816-4FAD-AFAC-F7C430968266}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery/Gallery/{09D65711-4C0B-49D9-A3CD-41425E4161B7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Gallery/Gallery/Gallery Image Folders/{6A93A7CC-C26C-44FD-B0B5-66AE5DFB5474}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Hero Banner Datasources Folder/__Standard Values/{1FB7DD36-C769-43D4-A398-17AA962FADEF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Hero Banner Datasources Folder/{F20CA1D4-C89B-4418-AE82-850DA82FDA5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Hero Banner/__Standard Values/{5D1C7BD8-964A-4C5D-B371-CA33214FFA93}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Hero Banner/{68967FB1-4AAA-4856-961B-92FCC387DEB5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Hero Banner/Hero Banner/{A5A7C54F-8B00-4D42-BD3A-4568313EFC34}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Hero Banner/Hero Banner/Banner Image/{D502633C-1EFE-486A-A1A4-98E4352C5A47}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Hero Banner/Hero Banner/CTA/{ED3310F8-8E1D-4627-81B2-9E03685492F6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tile Sections Folder/__Standard Values/{52312F71-ADCE-4C5D-BE9A-37EEEBF4DDE4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tile Sections Folder/{3A9625BF-D531-4D2F-A840-9AD5DBB6A100}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tile/__Standard Values/{93F69A04-8BB9-4296-8602-BA9F4EDD18FF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tile/{80DEED19-C441-43D2-A3B3-B299A100E4D6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tile/Numbered Grid Tile/{2C66BB94-028F-4C5B-83EC-C9FBA153A1C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tiles Section/__Standard Values/{73A27EB0-2AFD-44F7-86CE-08564741EBF6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tiles Section/{897EDB7A-ABE2-46EE-AF56-3D721A9A37A4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tiles Section/Numbered Grid Tiles Section/{4BB7956A-CD4F-4B0E-88D4-A948DE8D7248}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tiles Section/Numbered Grid Tiles Section/Show Tile Numbers/{42438F46-B49D-4D79-B783-4446B146853D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Product Details/__Standard Values/{77A6683D-C03B-40F8-9FBB-FBB08ACEE425}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Product Details/{310C0E99-8032-45FA-A873-DF9071C1FDF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Product Details/Product Details/{4B95E2FE-4B26-42DA-A1E0-455A565D3EC3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Product Details/Product Details/Category/{2B72B092-1ED1-4391-87AE-F450BBFBF91F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Product Details/Product Details/Image/{9A5CA56B-A6D9-410E-B38F-BF5064E3C7B1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Product Details/Product Details/Price/{6DA5C444-C4F6-404E-90DF-9D4F723AFA6F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Product Details/Product Details/Tags/{73C614FA-7821-4D3C-92E4-FBC53D9E8840}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Products Listing Rendering Parameters/__Standard Values/{C2FCFEF3-C8E0-4227-8FD6-E225825C81BA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Products Listing Rendering Parameters/{1E6AA4A5-6034-4949-B3D3-DC26F6054117}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Rich Text Section Datasources Folder/__Standard Values/{9733E90C-1DB4-49BF-8DDE-9B02C3ECAD13}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Rich Text Section Datasources Folder/{C5CDC6F4-0753-4166-9332-5C37603E5FC2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Rich Text Section/__Standard Values/{5E05BB69-CB3A-4A7F-9569-0CF93B665A95}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Rich Text Section/{DC23F10F-8F25-427E-BB89-686188BFC7B4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Rich Text Section/Rich Text Section/{3ED37328-C848-403A-8AF5-048D22D22054}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Rich Text Section/Rich Text Section/Content/{781AFC43-7ADB-4AE6-BBA7-6710F0FE9B2B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tile/__Standard Values/{A470EBF6-3F8A-4D4E-BED4-CDDACA99C7BE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tile/{3EBA1A1E-56A3-44A3-A7C0-E741FCFAE8CE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tile/Teaser Tile/{3D1D559C-FF0B-43C7-BD23-4F7EF52866C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tile/Teaser Tile/Container CSS Class/{EB153899-F0FD-45F2-A390-8EC027199DFA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tile/Teaser Tile/CTA/{1E2814E1-4385-475A-9F89-42330BC7C53F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tile/Teaser Tile/Icon CSS Class/{1AA4FD51-D455-4A26-892E-59292E9507A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tiles Section/__Standard Values/{98BE36D9-2533-4D87-BFC9-CB433C98DC25}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tiles Section/{8B365BB6-69FE-447C-B21E-CD30762FA04C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tiles Sections Folder/__Standard Values/{0C65C415-DC5B-45E3-A3A6-FBBF19AACFB3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Teaser Tiles Sections Folder/{735D948E-10DB-45F5-B2A6-B2F477C41F51}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial Sections Folder/__Standard Values/{46B857FF-5315-4B27-B15C-C2B3830AE089}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial Sections Folder/{5D928685-926E-4D20-B89C-ECE5C1D3A3E4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial/__Standard Values/{32EAEE93-38B5-461E-9C96-CC5F432BA773}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial/{00A372FA-5623-4519-8BED-38AB7537D718}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial/Testimonial/{43BD9FAD-C857-4467-8D68-7B263C9126D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial/Testimonial/Comments/{C2A28C19-049C-4D86-9FFA-811D073B9490}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial/Testimonial/Designation/{E9BAB2D2-DDF8-48D7-83B9-19FF19FFB545}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial/Testimonial/Image/{952EB599-92B4-411A-8770-3B54BD63105A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonial/Testimonial/Person Name/{866F1144-7976-4950-9145-002E20DB800C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonials Section/__Standard Values/{39233678-B90F-4FCC-9262-A3DC42BE1C35}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonials Section/{1AC88EDF-7673-4A93-8CDE-12C9C9D0C123}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Feature/PageContent/Testimonials Section/Testimonials Section/{ABFA3162-5CEE-4F57-AFB3-900F2A01D97D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/{0D12D15A-2DF3-4BF4-98FE-ABA2D2788BD0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/{6083DBD1-C71C-4BAF-B989-22A945CF7C75}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/__Standard Values/{3FF78540-4CB5-4088-A572-703C734CECD2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/{0836D3BA-3285-48C0-A961-293AF85C9194}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/{006E1D4B-F065-4D31-9B5E-26A80792410B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Media Assets Version/{D5219781-76E0-4513-B56A-7715CD1CBDBA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Media Scripts Body/{6C1771A1-5EB2-452D-AEE7-9E7C6ADD5108}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Media Scripts Head/{F9A29082-DBA0-4E55-AD36-CAD4A68D2542}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Media Styles Head/{6B368FDE-DD40-455F-AB12-517C8A1C948F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Script Snippets Body/{66126436-DBA8-4FFE-8531-BF73B7444555}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Script Snippets Head/{9C7FD038-5CCC-47F8-B199-7C98E2F50F5A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Scripts Body/{0DBF7671-613A-423F-8332-83AE7AA5C691}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Scripts Head/{92A94A0B-52E8-4DFD-A51E-4A9C03584E86}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Style Snippets Head/{29AB5D89-F07D-425C-8F3E-1B599EF205A8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Global Assets/Global Assets/Global Styles Head/{15E324DF-3FB5-4CED-BAA3-37F8704B6E66}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/__Standard Values/{E7217413-CD7B-4F67-B643-7F5C1F4E7BB9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/{6B379A9B-3C08-4D87-9328-501AEA711A84}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/{46200531-2A5F-47B2-9DA1-E2E9EE7852BE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Do Not Load Global Assets/{567D2859-9155-4A05-9E5B-BCAB8906C461}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Media Assets Version/{0DCADC17-9F97-4979-906D-1DABD459FB9C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Media Scripts Body/{F8C2E9CC-526B-4BF6-A862-528BF6C3FE0C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Media Scripts Head/{78E86008-F06C-4B6F-9368-A2F105190583}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Media Styles Head/{8E9054AB-E0BD-4B60-94BE-0552A2969BBB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Script Snippets Body/{55E96C6B-DC24-490D-8EAB-D1ACBC19D758}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Script Snippets Head/{8D74DFE5-AA30-454C-A65E-1DC078A5B7E2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Scripts Body/{2F1C4393-CBD5-436E-ACF8-92252834868D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Scripts Head/{E2F12EB8-4BE2-4A30-A502-86A1D2FD8805}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Style Snippets Head/{51FE4EC8-6B9F-4CD7-8889-01B3FF645D53}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Page Assets/Page Assets/Page Styles Head/{51949363-BC78-4727-AF75-AEA9158A2735}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/__Standard Values/{A896168A-4FD2-407C-8C4D-750E5A03BEBD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/{2C75F786-E773-4634-8118-875AE29B1A0D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/{F1372446-4AFE-4D3C-8166-FA608BD86729}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Media Assets Version/{7082E31B-11C8-425D-9451-D9473D247765}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Media Scripts Body/{77D74CC0-7096-4514-9AB6-81C6DB6FE64D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Media Scripts Head/{8D77D2E7-6A12-46DF-952A-8B5DF3A24E4E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Media Styles Head/{B9D62401-2135-4B5B-8961-94AA19561C63}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Script Snippets Body/{039C01C7-1D9F-43E0-B883-538708A0A1C0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Script Snippets Head/{E79383D2-8B4D-495D-BDC3-55D06F8095A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Scripts Body/{FD4353F4-745A-4FCB-A7F6-E256ABFCAF62}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Scripts Head/{ECE81A60-E1B5-430E-A3D5-E1E9276A9D20}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Style Snippets Head/{3E069D9B-F0E9-4E7E-AD91-4A75F5979FD1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/Rendering Assets/Rendering Styles Head/{97087E4D-A706-452B-B0F1-6D9972871966}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/{AE57F193-E1BC-4842-9F78-6515D4FA1784}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Active Status/__Standard Values/{2077D950-3036-4E2D-8384-7432B5308525}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Active Status/{76F14742-2033-43A5-B0A5-9C16DCF411B0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Active Status/Active Status/{8AA2FB16-68CD-47DB-B66F-BEB9AE1AF004}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Active Status/Active Status/Is Active/{89F162F8-13E0-40C0-ABAF-BA76492CA60A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Content/__Standard Values/{8D0EAA78-3119-4889-AF2C-22535FF59E97}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Content/{1F4A7579-A7E5-4160-97D6-6315A10EBA24}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Content/Data/{78AA8F06-B2E2-4E7B-BC79-4176F861733D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Content/Data/Description/{127CCB6A-3AF8-4965-B27F-DE7A552A09C2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Content/Data/Title/{56EACD06-8389-44DB-A78B-D6B78FA11684}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/__Standard Values/{6B19370F-6741-4E3A-AC91-C0E2B387BD5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/{BEA9D87A-2B58-4DC1-923F-FB5CF7869715}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/Email Settings/{EE7AD6D7-6D84-4B18-BA2A-5A8EB59BE16C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/Email Settings/BCC Emails/{84BAAB2C-8533-45E9-9653-4572B4B2B471}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/Email Settings/Body/{AAFE9007-6CCD-49FD-BF8C-66C1195F5932}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/Email Settings/CC Emails/{B75FA825-82B7-4168-8D58-E72FA6557C70}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/Email Settings/From Email/{D64940E1-7838-42A4-A0AA-BFF3A5860BA2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/Email Settings/Subject/{2C59C452-9580-4588-AA12-F9F4857E819D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Email Template/Email Settings/To Emails/{0CC63E74-3BA1-477B-82F8-2B10707CD62F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Folder/__Standard Values/{D10E800A-D3B8-4F4D-B136-66B683BF7C8D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Folder/{F549FDB5-C3B0-4A0F-8C78-C21043EA2A1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/__Standard Values/{F3028024-BF78-4D7F-A0A8-4ECF79D14D3E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/{37B76B46-C759-4C97-A22D-4556BAE7F74C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Rendering Parameters/{5C2289E5-1620-4C6F-B3A1-2ED00FEAE52B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Rendering Parameters/Add Default Background Color/{09328E33-7A55-44FE-98F0-24461C7A8FFA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Rendering Parameters/Background Color/{11DE13B9-F4EC-42D5-9366-F951D58ACDCB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Rendering Parameters/Section CSS Class/{2D61F3F1-2A48-4791-9993-14140D550CB3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Rendering Parameters/Section Id/{78BE52B1-2628-46DF-984C-54AB53B8CADE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Template/__Standard Values/{D59F912E-E6C0-4561-B3CB-DF3A2F2976B5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Base Template/{B0E484CE-A4DA-4A68-B9D8-AAF6ADC7EF9D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Pagination Settings/__Standard Values/{6370A31A-CF2F-4E8D-8C7A-00B567B8B3BB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Pagination Settings/{3D6A3DD7-6B55-42B3-B4D9-F6A5742F1EF6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Pagination Settings/Pagination Settings/{E4260F58-6A31-4497-99DC-1999E3DAE7EF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Pagination Settings/Pagination Settings/Page Size/{0A33FB6A-C9E7-4C81-A94F-DB7975D30D42}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Pagination Settings/Pagination Settings/Show Pagination/{85068CEF-4F82-4C1F-A884-434F742BAA03}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Tag/__Standard Values/{6489075B-B906-4F5B-92D0-6746A99ED67C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Tag/{E3624552-5ED9-42E4-9BF6-552EE27CF833}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Tag/Tag/{64BA77F1-448C-49C2-9D71-A97DE4BD8DD7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Tag/Tag/Tag Name/{24B97149-7AB0-4D92-9C79-68733547D8D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Tags Folder/__Standard Values/{A489A390-1695-467D-AD39-BAAC793F59A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Foundation/Common/Tags Folder/{1C2A6677-2B86-4648-BF6C-C032C872437E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/{2885B411-CC9D-44AA-A5DE-D32068B0A088}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/404 Page/__Standard Values/{7B080895-4F42-47FE-AC0F-938C354AEA56}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/404 Page/{31626F68-106A-4BE4-9004-C3476D6289EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Account Pages Folder/__Standard Values/{2B1C26C2-8208-4503-B6C0-78D5449EB234}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Account Pages Folder/{F606801E-3656-4D15-92F5-5D7259E43E1F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Base Page/__Standard Values/{9474C6D0-112E-479F-9C21-46CEEF83BC15}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Base Page/{B2FE435B-EB77-4A1C-9725-F14739677114}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Configurations/{B3EB32AF-2897-4D4C-A2C5-D808F2A6E5F6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Confirm Sign Up Page/__Standard Values/{F2200C98-7339-452C-B330-FA8CD4BE72A0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Confirm Sign Up Page/{401196C4-E7BB-4951-B0A9-A74AE31E33E6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Data/{917C1E46-67EC-45A7-A9E8-175B08D7C7F7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Datasources/{727442EC-88F9-4D7A-936A-B834B1565E84}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Dictionaries/__Standard Values/{D7A41FC6-22BC-4E8F-A0C1-94634FE5D43F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Dictionaries/{A28F8311-06FD-4CD0-941B-F79CB713A674}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Featured Items/{14B7BDD7-1DDB-434D-A14F-C7EA3B0E0300}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Forgot Password Page/__Standard Values/{9232649E-0E1D-45E0-A4CC-78062FCAC67B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Forgot Password Page/{57F6F603-C558-4F5C-99AC-F317E23D420C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Home/__Standard Values/{2542B5E4-6E79-4204-A16F-A70EE4116A1C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Home/{0E2CFD78-576F-4BF5-B45B-2D029345F1D0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Product Details Page/__Standard Values/{EE5C2AE5-3A83-4789-B2C1-18B211B523D5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Product Details Page/{73D13705-EE8B-4C57-A6E6-E44A658ECF4E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Products Listing Page/__Standard Values/{94D78EFC-0792-40BA-9137-CBE2DEA25EFF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Products Listing Page/{CE514933-6786-4F21-89F2-67D03749A4FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Reset Password Page/__Standard Values/{5FB8C939-BB54-4121-A844-D907DA08A42D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Reset Password Page/{223451A2-8FE1-4C33-84CA-9779248BB8AF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Sign In Page/__Standard Values/{543A3BF3-C72C-436D-8EB4-124A399197C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Sign In Page/{873B2D15-5DBE-4129-AFB6-A37CF3EBA042}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Sign Out Page/__Standard Values/{9034C6C5-E0E5-4AB1-A283-D76A540EB485}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Sign Out Page/{1AECE430-66C7-48D0-A712-CF9E13009905}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Sign Up Page/__Standard Values/{0DCE12FB-777D-470C-8003-3ED7A039FEB4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Sign Up Page/{8C3517D1-46ED-45C4-9834-B34359F9B7DA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Tenant/__Standard Values/{295AFE67-AD35-4C7B-9F99-16C4754599CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Tenant/{3AF80690-1573-4C9F-95AD-FF243BD2A664}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Website/__Standard Values/{EAE298DD-9256-4A84-84A6-FD3A3D1A08C7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Stratum/Project/Website/{70106775-721D-4592-B645-1DC5F6624FD6}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>templates</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Branches/Stratum/{6A3746D0-0F91-4AF5-8C46-B589F8BE5E5C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Feature/{20F0CFF7-9180-4EE2-9AF8-0F67318291AE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Foundation/{154F3060-5943-4EC7-956D-2F5E0FBEEA72}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/{9C9DA161-28B9-40BD-9440-269FF6F72CB6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/{6F7E2542-F8E0-4AB4-88B9-AB18DCB8CD04}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/{A97FC850-A8C9-47B4-9E69-7E04CA375818}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/{172AB185-F08B-4DEB-8527-7CA20ACDB06B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Configurations/{67984714-1718-40BD-A669-5372474F89AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Configurations/Email Templates/{1C28353B-76FF-4B71-AD74-4438FDFC75C0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Configurations/Email Templates/Reset Password/{A2D4FD62-8644-47D2-8339-BB3665EDE9B5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Configurations/Email Templates/Sign Up Complete/{64E2D07E-63A3-4942-AEBD-164639E3CA6B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/{4D48B5D9-4B4F-44EE-991F-1A67CF418DA3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Accordions/{C63DEADD-A994-46A9-B87C-2E89A411D344}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Footers/{6D702065-88A9-4868-9054-283F3B12DBFE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Galleries/{449E858E-4A58-43AE-90D0-8288B8241CE2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Headers/{CC72DF68-1DC4-4BB0-9213-75593DE857AA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Hero Banners/{349810CB-5C44-4A8E-BC02-5B6A052C576A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Numbered Grid Tile Sections/{0C372CAD-5D22-4B37-9318-881935DFC49C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Rich Text Sections/{BF7E6A22-EDE7-4370-A527-1D5B0AE7D7D7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Teaser Tile Sections/{5EAC81CD-BB45-4761-822F-5AB251A06688}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Testimonial Sections/{526CFD2B-050B-4DD2-8604-2019359A1363}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Dictionaries/{4ADD6B09-E903-4EC1-AA03-3983F99255CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Featured Items/{9158060F-323F-4AC5-84C6-76C01F0AE320}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Featured Items/Nav Links/{75A2D6E6-BE03-4BF4-9C71-D621A199D9D5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Featured Items/Tags/{6E585FFA-6432-4B44-8E78-F6AAAF52670F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/{79C920DD-2A8D-4FAC-8024-C0BC9AFBD493}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/{B15521AB-A1E3-4BB7-9E7A-F00AAF318770}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/confirm-sign-up/{39B58EC2-15AE-475D-AB23-746E87623F0B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/forgot-password/{6AF07C7E-FE34-4A1F-9999-DCBEB668D775}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/reset-password/{F8BB0796-A400-4545-9A89-9FE22B82E384}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/sign-in/{9CCDE9CD-7DCD-4C19-8044-CA7F0419FF18}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/sign-out/{21DBF7C5-1FC1-4748-BEE5-E06DEE998768}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/sign-up/{C8630075-8AA4-4CBD-BD61-44ED3244B5F2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/page-not-found/{A997A731-4475-4D9E-8B2D-ACD22AF7A0EB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/Products/{5C1359FB-96E1-41A1-B8FD-18B7DC4817A5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Stratum/Project/Tenant/{DFA67BC7-99A5-486D-AD48-3EE9521C18D7}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>template-branches</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Stratum/{93631051-20B0-4EF8-BA35-8A463FAF54A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Stratum/Feature/{26AE9A61-AF37-481F-86D5-AA22323517DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Stratum/Foundation/{ABDBC167-7245-4318-B47B-0F4B3EFAF4B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Stratum/Project/{96F94A7C-57DF-4C04-8877-B8C25A516F87}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Stratum/Project/Site URL/{56D39DAE-8C39-4177-B36B-3707F7EE8923}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>system-settings</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Layouts/Stratum/{4F1471B0-B2FA-4E9D-852E-C3BD9C8F634E}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Stratum/Feature/{77E300A4-C7D9-49E3-A412-802C23CC9532}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Stratum/Foundation/{779C5820-C491-4615-9D8E-6EAD4117A3D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Stratum/Project/{6B41A1BB-3C39-4935-9E29-977880F75890}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Stratum/Project/Default/{18C4558A-415B-49D3-AC32-859D927304DD}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>layouts</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Models/Stratum/{1B78B31F-579E-4557-9D3B-EEF71930571B}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Models/Stratum/Feature/{8AF0126B-0697-49AA-BD9E-44858B47676E}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Models/Stratum/Foundation/{54EBE6F5-AC3F-4DC4-887B-6853DDC96028}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Models/Stratum/Project/{15723405-B815-4DB5-B9DD-5580A8A4D338}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>models</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/{E940F185-6704-4411-855C-44E6D86E7D74}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Feature/{54C133B5-111C-4725-B06B-C712E1D65A52}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Feature/Navigation/{6A8F9940-A18D-49CE-B003-442104AFAC7D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Feature/Navigation/footer/{6452BB4A-46D4-4DFE-9E67-FBE93EFEBF59}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Feature/Navigation/header/{18487A3B-15E0-40F0-9A83-248AC23626B2}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Foundation/{A8DDEECC-D8FB-4E53-B7F5-66E4A19018F8}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Project/{FD850D52-DCF2-4FD1-B362-82A8D8144B67}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Project/col-section/{EEC365BA-2AAA-4EC7-B36B-5B636450087A}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Project/head/{1CA629A2-8A6B-4FA0-82DE-3BEEAFEE376C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Stratum/Project/main/{56E371E6-734E-40EA-A7D7-6147634A494A}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>placeholders</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/{919B1E6C-1722-4902-B3CE-4DB9DE4DA28C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/{310E96E5-70C6-4261-B736-9F6F1B0C177E}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Accounts/{B54955EC-3B73-40CC-B369-8E3D93A54D48}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Accounts/Confirm Sign Up/{7F67CE1F-32F8-45CF-9D33-FDE8270E3BFB}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Accounts/Forgot Password/{9DB1CD04-B92C-4637-831A-8CAD71F1F14D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Accounts/Reset Password/{F35FDCAF-71F5-43C3-A34A-855D6FB92150}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Accounts/Sign In/{40D0C251-DEFC-46EE-9778-AEDF3C48D5C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Accounts/Sign Out/{D491B7D8-F7E7-4A90-B7DA-FBA6B9D631C2}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Accounts/Sign Up/{747F2E67-4630-46CC-BB71-DBB10DBEF5FE}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Forms/{941A1847-07A8-4219-A178-7AF57E66872C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Forms/Contact Us/{D149748C-58DA-4419-954E-F7C812E9E65F}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Metadata/{758C6E2A-F4E7-4286-9A2F-28B01D033835}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Metadata/Metadata/{66FA5968-9ECF-4A07-98EB-3B91A598F3BF}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Navigation/{E5696D72-D8B9-4F7A-9B78-3221CC7EA411}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Navigation/Footer/{12FF587F-B5E0-40CE-BA31-B38B6A9769B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/Navigation/Header/{5D758EBF-0B92-43CD-93FB-19D673798133}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/{9C275CB8-C46F-436E-8F27-102B3AE9D866}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Accordion/{F87B468B-088F-4A09-A787-6D81DDA5583C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Columns Section/{759FBB9D-6F3A-48B9-A2B4-33D07F13D839}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Hero Banner/{DF670EAB-BA4F-40D2-9089-A670D2684EE9}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Numbered Grid Tiles/{EF637A7A-3FEF-49AE-8FB1-85E722A4E4A1}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Page Not Found/{52EB48A8-DD4E-4F15-9EC1-489B1E09C5F8}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Products Listing/{C02609D4-87DE-422C-86AB-89E0FAC9A85D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Rich Text Section/{D04169C9-C420-47AC-97EE-D329509DFD1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Stratum Gallery/{F9E8E0F7-BE58-4740-A207-1D06A86AE2BA}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Teaser Tiles/{8C74F824-0B75-4CFE-8A24-0CC0FDA36E23}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Feature/PageContent/Testimonials/{4D99AAA9-1924-4D34-B064-261870C373F4}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Foundation/{C479F95E-51AD-491D-BB74-121091C7AA8C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Stratum/Project/{639A5CC2-42E0-4565-B148-44B0986B4280}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>renderings</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/Forms/Stratum/{BC89EF19-F158-4B07-A089-B4917607FBB2}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Stratum/Contact Us/{60EE0499-1D2C-4962-A63A-4626362D81B1}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Stratum/Contact Us/Page/{9B38CC23-9225-4D24-8793-67165835AADD}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Stratum/Contact Us/Page/Email/{ECBFB546-A4D8-4DA9-A881-91A1B2ECF6E8}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Stratum/Contact Us/Page/Message/{6EF0BCF7-030B-41FF-B41B-05E2B26CF758}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Stratum/Contact Us/Page/Name/{1619FF15-7FBB-4134-B7C2-90F14FB8C50B}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Stratum/Contact Us/Page/Subject/{14901A55-8F2D-4D98-8464-CCA18CCC6A78}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>forms</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Tenant/{FD180550-9862-42E0-933F-D590E7E07981}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/{B01688E5-E6C2-4F17-9DC5-0FA52C2A9A3E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/{5FB4CD5C-2BDA-46E2-9D6C-30E76A26D993}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Configurations/{57EE04F5-F261-4F11-8AB9-A06BD3356665}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Configurations/Email Templates/{4083ACD0-132E-4973-945D-B04E91E10BDF}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Configurations/Email Templates/Reset Password/{B0A44A5C-DA71-499F-B716-E6CBFA626678}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Configurations/Email Templates/Sign Up Complete/{1492E95F-39EE-465B-A988-00684CA0873C}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/{F53D50D9-ACE9-4F2D-B53E-6D3713071F37}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Accordions/{D01938D8-D2C6-45FF-8846-D06E6339B524}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Accordions/FAQ/{05A7DC13-2157-4ECB-AC61-8636946CBADC}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Accordions/FAQ/Panel 1/{CE434AED-60E8-4F54-BAD1-AA35EFF87C5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Accordions/FAQ/Panel 2/{5035F820-8EC8-4040-8B11-B023D6B6133E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Accordions/FAQ/Panel 3/{870AC462-F646-4196-ABCC-CAC579527DC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Accordions/FAQ/Panel 4/{1921367E-957A-4D97-8913-032AC05155A1}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Accordions/FAQ/Panel 5/{9BE7D07B-F138-452B-94C4-5104B00925A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Footers/{B10EA25C-B7B7-4C38-983D-D226F74FAE09}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Footers/Default/{B6E37804-C9FE-4097-B758-953029B5FEF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/{512EC065-278C-4A96-AA8A-775676AE490E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/{6B941822-9E9F-47CA-AF7C-4629CA654C49}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/{E693CE69-E978-43E5-8027-5D0DC91255AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Body Oil/{AC0010D3-9ABE-4ACA-9C2B-D9F5A7DAB093}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Cookies/{E4A9D399-B26E-4CE4-9C2E-62C5F4CD63F6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Headphones/{9171E672-5698-40FD-B498-B739F9EC157F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Perfume/{7DC0A198-6D24-4866-A56D-E988215FE880}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Plant/{0DEF1FB5-BAA9-44F5-9DD7-A2D073DBB88E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Sunglasses/{798DB4C4-5E21-4F0E-9351-E53605111B9A}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Table/{4BCF65FE-E6F8-4FBC-AC59-54995F7DB49D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Watch/{738DD5BC-0D01-412B-97C5-F3E311102C2E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Water Bottle/{A7562E55-8A88-429C-AB24-F1FC59DADD63}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Headers/{035A0108-571E-43B6-B79D-74D20B8CAB2B}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Headers/Default/{50500BC7-120F-4F12-A9B7-F5D4939DCE4B}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Hero Banners/{59829E03-1402-4FF6-A8B5-2FC8F591F7B1}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Hero Banners/Welcome/{A36571F3-CE4C-49FB-9B0F-8198F868F991}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/{ED016FA6-AF9C-4441-99AC-8960AB51C760}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/{DAC1754D-ACF2-429A-BBA5-60261FE127EB}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/Step 1/{C811AFCC-FEDB-4172-915C-95C3C4D51883}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/Step 2/{2C6EFD87-65DD-457D-8838-523610983395}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/Step 3/{2D4D8AEB-0EA0-486F-9F32-B072BA011029}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/Step 4/{A1445143-83E4-4C3A-BD3C-7F266EEB2680}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/Step 5/{09B6621E-A901-4281-97C6-E2AAFBB4FBB9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/Step 6/{2B7BD150-669C-4C11-A4CD-7433EE49A8DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/{385DF53F-46E4-4E8D-A9E6-83450DB9391C}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/404/{E25B6AD2-F2A2-426A-A3C8-0BF21DFB8DF2}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/About-Us/{FFD8ED16-5F57-4B8E-AAF5-2D53C1A6667E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/About-Us/Content/{80D735A7-DD44-463E-AD4B-7AA7A3A0DD04}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/About-Us/Image/{CE9B1772-F515-4E1C-A89A-CA457A18D805}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/ContactUs/{183B7DB6-4863-4C6C-9DE5-CBED5906C850}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/ContactUs/Address/{2BBD3A9D-FD3D-405A-892B-A3CECEA149AC}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/ContactUs/Map/{7087EC77-B75C-425B-892D-A9BCAFAD0ADC}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Teaser Tile Sections/{13B47D9F-0480-42BA-B364-416642C2EA87}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Teaser Tile Sections/Services/{7B381284-0FB1-4D46-AEAD-5BDBED51B1CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Teaser Tile Sections/Services/Lorem Ipsum/{757C8C5C-F0EE-4615-AE1E-9A41CC7F52DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Teaser Tile Sections/Services/Magni Dolores/{DF9CF6C0-1ADB-4CAC-A32A-B3772122E8BC}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Teaser Tile Sections/Services/Nemo Enim/{5A8634A6-D4DE-45B8-BC0A-CF27A2ED8220}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Teaser Tile Sections/Services/Sed ut perspiciatis/{F7CDA10E-0336-4528-9438-CBDD5ED81902}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/{DA6BD358-DFA7-467F-97B5-1D00285DB129}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/Default/{A2FBDF07-98A7-475B-A6FD-2CF7598FF617}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/Default/Jena/{50A47813-3356-48A5-A5D6-5DB234BCB534}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/Default/John/{01BABE44-E27B-41C2-B5FB-8BF2A1185305}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/Default/Matt/{F3D43FCD-BDC9-4B0F-92CE-C7031CDA6D4D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/Default/Sara/{C1744ED4-1A48-43A5-8EFD-7E05540C1119}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/Default/Saul/{7E0A206F-A007-4798-9406-CAFDEFBB7560}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/{3DBA76FE-F366-4848-A3EA-B7296C9DF2B1}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/{A950463A-5E5B-44A1-A60D-5897AA78DEEF}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Confirm Password/{C9B12883-1E50-449E-989B-467978349510}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Email/{BF9A0A7C-FF23-4386-896B-142FFA79318D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/First Name/{27F2957D-08BA-4FCD-A763-784168A7109D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Last Name/{36C22FC2-B57E-41CD-97C2-DA80883A3C2D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Message/{D634D755-69D2-4B6B-AEE6-EBF79E2A8C7F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Name/{7E6DB217-95A7-4843-BF75-C0A2CEF8E740}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/New Password/{D75B7250-D215-41D8-A71C-3485AA2727C0}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Password/{D11DC25D-5930-4A49-8FC9-F8FC8B4C0FD6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Remember Me/{1E62FB5A-6662-4C65-85BB-D3F4FF174623}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Search/{C89CA148-B99F-4566-AF69-6F636245CFF3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Sign In/{E3923EE9-0375-4805-8DFD-46340AD9D57E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Subject/{F0AAA237-5A84-4DC3-A38E-753D93906D9F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Labels/Submit/{BE64D56A-78C6-4933-B3A5-7CD128D991A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/{1041DFAF-943A-496F-B87D-3AA05FF10BD2}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Errors/{0D2AAA1D-D772-4FA0-978E-8E3DD946278B}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Errors/Account Email Exists/{29B38AAA-031A-4D7C-8DAB-D152893BEA29}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Errors/Account Unavailable/{F2C55267-D914-4399-97E2-B45A869C5879}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Errors/Generic/{2309F53B-00C6-47F6-9F24-FDB007FFE4A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Errors/Incomplete Sign Up/{9B2D64C6-2DB4-4DE8-8FBE-50C658870A28}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Errors/Invalid Sign In Credentials/{4CABB57E-2DD9-4FDB-B2B1-15701D87E774}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Status/{AA7236E3-0EC2-49F5-AF87-C0C8AC13DD3B}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Status/Contact Us Form Submit Success/{C20C7E49-E1DD-4157-A2EE-EA4CBC6A0D77}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Status/No Results Found/{3DE07CB0-DA04-445E-BCD8-618E73066C31}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Status/Password Reset Success/{944A811A-452F-4929-80AA-21679FA585E4}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Status/Registration Success/{42A21041-5894-4CFB-A411-4507B50065D3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Status/Reset Password Email Sent/{7DE4AA61-E4C4-461D-A44B-7CC1273D45C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/{716B6E7A-C48F-4AB3-B1A3-9CDFF7013056}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Invalid Contact Us Message/{CF54C464-4F71-4763-96CF-B4EC3B3E831F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Invalid Email/{73FF6BAB-26A2-46C0-A410-23C6DA8CE008}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Invalid First Name/{075A52D2-1464-4262-8764-773E69FB5F1F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Invalid Last Name/{6B03E16F-4E11-450F-BA76-49DCD2E30587}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Invalid Name/{946A610D-D118-4DAC-AEFC-D1165D835BE6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Invalid Password/{D0EABCF6-50B2-43E2-97F4-05663E284F4E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Invalid Subject/{C86933AD-B9C4-4E94-9CEE-C0059034C3B6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Passwords Mismatch/{C7FB011A-91BE-439F-96A0-9DB11025CB42}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Required Email/{F61CCE14-FEC3-45B8-ADAC-776A2945366E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Dictionaries/Messages/Validations/Required Password/{EE7A4F03-DABF-474F-8F9B-73AD0D73641E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/{7F620134-46FB-49C9-A844-7B279F93CAE0}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/{21329DDA-B575-44EA-A6A8-B172B6E9C738}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/About/{4630B8FB-AA33-4B09-A40D-1D0EE89711C0}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Contact/{F3095B60-415E-428A-96FF-5A4D1DA1ACC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/FAQ/{7843BE8A-38B5-4800-AA98-1E885185275D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Gallery/{E48D77CF-B8D5-4783-BAB8-DE0E38D28A73}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Home/{6E19CB74-C85F-4A95-BA37-B2C585E9EC29}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Products/{40724FFB-5806-4642-A15B-EC3E955602C5}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Services/{D50B0CBB-85D4-4E51-BD14-C6ECC568356F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Social/{2068D1FF-8D9B-494E-AB96-D346AB442465}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Social/Facebook/{15F37EF0-E377-4E57-9519-D9FD03B1AE78}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Social/Instagram/{848E87BB-F60D-4205-910D-5C2D97D45907}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Social/LinkedIn/{72AF5D33-5632-4C3E-9313-98B81646882E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Social/Twitter/{FF9714DB-7BF6-4F74-9F6E-D0005992B0A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Testimonials/{22A9793C-B004-4A17-8311-D79B3317ECE3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Tags/{7CBD7263-B211-42D2-9FC7-63B47D98FDAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Tags/Body Care/{B88CFACA-FB9E-4B85-BFAA-36406859C2E4}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Tags/Cosmetics/{D8B37346-0DCC-4996-87D4-FCE43D443CA3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Data/Featured Items/Tags/Food/{7FCE9E64-A097-403E-A02D-B580A96CD6A8}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/{65A44533-E9C5-4BC9-A369-DA4B133D80C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/accounts/{2B282896-3269-4105-B75C-0D43C06EAE3D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/accounts/confirm-sign-up/{79D86E1E-66AE-402E-91F7-DAA67C9D7AE5}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/accounts/forgot-password/{48A4DFB2-4AE9-4583-812E-ADFBFC127944}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/accounts/reset-password/{4DFEE081-39EA-4775-8D5C-FEF368FC7BF8}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/accounts/sign-in/{9EF23853-63CF-4478-B64D-3E488561A3D4}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/accounts/sign-out/{E67349EB-5790-4EB5-918E-C507E6548A1D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/accounts/sign-up/{76F91621-4380-4E4D-8B30-10E73CF75492}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/page-not-found/{7E251B18-444A-4DB3-9AB4-D5B720E881B5}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/Products/{7C610233-D958-41AA-931F-34806D2E0C4E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/Products/Claire/{3888FA85-992A-4AD5-B1FE-9398015C2FAA}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/Products/Fluff/{3160A844-10E5-44EF-87CC-6EB1FA24527A}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Tenant/Stratum/Home/Products/Onne/{648A7A8E-659A-45D6-8AB0-022BB296083A}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>content</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/System/Layout/Renderings/Controller rendering/{2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Layout/Renderings/View rendering/{99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>templates-ctrl-view-renderings</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Menues/Publish/Publish Site/{F7178B75-9AA6-48EA-A70B-97D59C54B033}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-pubsite-ribbon</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Left/Publish Site/{CFBD6AF3-FB0D-46A9-B2F0-85C2D78B4E57}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-pubsite-startmenu</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Settings/Key Map/Ctrl-F9/{AABEB5F1-5DAF-40E1-AD67-6EC3D4822635}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-pubsite-keymap</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/templates/System/Security/Stratum User/{39A2CC73-B748-4F86-A572-EE90E7407844}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-template-sys-customuser</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Settings/Security/Profiles/Stratum User/{985A8C5D-234E-42D5-997D-ABD6AD04A375}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-sys-customuser-profile</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
