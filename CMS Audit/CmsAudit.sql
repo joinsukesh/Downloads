@@ -1,4 +1,4 @@
-﻿/*CREATES AUDIT TABLE FOR CMS ITEMS*/
+/*CREATES AUDIT TABLE FOR CMS ITEMS*/
 CREATE TABLE [dbo].[Basiscore_CmsAudit_Items](
     [RowId] [bigint] IDENTITY(1,1) NOT NULL,
     [ItemId] [uniqueidentifier] NULL,
@@ -71,7 +71,7 @@ GO
 
 /*CREATES SP TO FETCH ITEM AUDIT LOGS*/
 --exec [usp_Basiscore_CmsAudit_GetItemLogs] 0, 0, 0, '', '', '', '2023-07-13', '2023-07-25'
-ALTER PROCEDURE [dbo].[usp_Basiscore_CmsAudit_GetItemLogs]
+CREATE PROCEDURE [dbo].[usp_Basiscore_CmsAudit_GetItemLogs]
 	@GetOnlySitePublishLogs bit,
 	@GetOnlyItemPublishLogs bit,
 	@GetOnlyPublishLogs bit,
@@ -165,22 +165,35 @@ END
 GO
 
 /*DELETE ITEM AUDIT LOGS*/
---exec usp_Basiscore_CmsAudit_DeleteItemAuditLogs '2023-07-18', '2023-07-18'
-CREATE PROCEDURE usp_Basiscore_CmsAudit_DeleteItemAuditLogs
+--exec usp_Basiscore_CmsAudit_DeleteItemAuditLogs '2023-07-19', '2023-07-19', 1, 30
+CREATE PROCEDURE [dbo].[usp_Basiscore_CmsAudit_DeleteItemAuditLogs]
 	@FromDate datetime,
-	@ToDate datetime
+	@ToDate datetime,
+	@IsScheduledDelete bit = 0,
+	@DataRetentionDays int = 30
 AS
 BEGIN
 	DECLARE @dtFrom date
 	DECLARE @dtTo date
 
-	--adding 1 day to passed todate
-	SET @ToDate = DATEADD(day, 1, @ToDate)
+	IF(@IsScheduledDelete = 1)
+	BEGIN
+		SET @DataRetentionDays = @DataRetentionDays - 1
+		SET @dtTo = CONVERT(DATE, DATEADD(dd,(-1*@DataRetentionDays),GETDATE()))
 
-	SET @dtFrom = CONVERT(DATE, @FromDate)
-	SET @dtTo = CONVERT(DATE, @ToDate)
+		DELETE FROM Basiscore_CmsAudit_Items
+		WHERE LoggedTime < @dtTo
+	END
+	ELSE
+	BEGIN
+		--adding 1 day to passed todate
+		SET @ToDate = DATEADD(day, 1, @ToDate)
 
-	DELETE FROM Basiscore_CmsAudit_Items
-	WHERE LoggedTime BETWEEN @dtFrom AND @dtTo
+		SET @dtFrom = CONVERT(DATE, @FromDate)
+		SET @dtTo = CONVERT(DATE, @ToDate)
+
+		DELETE FROM Basiscore_CmsAudit_Items
+		WHERE LoggedTime BETWEEN @dtFrom AND @dtTo
+	END
 END
 GO
